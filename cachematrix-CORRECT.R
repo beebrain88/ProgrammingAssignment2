@@ -2,11 +2,6 @@
 ## functions do
 
 ## Write a short comment describing this function
-##Creates a Matrix to cache values- sets m to Null to allow second enter to continue
-##to enter the previously inverted matrix
-
-##need to enter functions as follows:
-## n<- makeCacheMatrix(matrix(data, nrow=i, ncol=i)) ##must be a square matrix
 
 makeCacheMatrix <- function(x = matrix()) {
 	m<-NULL
@@ -22,10 +17,7 @@ makeCacheMatrix <- function(x = matrix()) {
 		get.matrix=get.matrix)
 }
 
-## Write a short comment describing this function
-##Inverts matrix if hasn't prevously been inverted
-## enter function as follows: cacheSolve(n)
-## n same as above: n<-makeCacheMatrix(matrix(data, nrow=i, ncol=i))
+.## Write a short comment describing this function
 
 cacheSolve <- function(x, ...) {
 		m<<-x$get.matrix()
@@ -38,3 +30,12 @@ cacheSolve <- function(x, ...) {
 		m<-x$set.matrix(m)
 		m}
 }
+
+
+a<-makeCacheMatrix(matrix(c(1,2,12,13), nrow=2, ncol=2))
+summary(a)
+c<-matrix(c(1,2,12,13), nrow=2, ncol=2)
+c
+a$set.matrix(c)
+cacheSolve(a)
+a$get.matrix()

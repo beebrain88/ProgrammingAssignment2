@@ -1,0 +1,645 @@
+m<-a$get.matrix()
+is.null(m)
+!is.null(m)
+cacheSolve <- function(x, ...) {#
+		m<-x$get.matrix()#
+		if(is.null(m))  {#
+				message("getting cached data")#
+				return(m)#
+		}#
+		data<-x$get()#
+		m<-solve(data, ...)#
+		x$set.matrix(m)#
+		m#
+}
+cacheSolve(a)
+a$set.matrix(c)
+a$get.matrix()
+cacheSolve(a)
+if(!is.null(m))  {
+cacheSolve(a)
+cacheSolve <- function(x, ...) {#
+		m<-x$get.matrix()#
+		if(!is.null(m))  {#
+				message("getting cached data")#
+				return(m)#
+		}#
+		data<-x$get()#
+		m<-solve(data, ...)#
+		x$set.matrix(m)#
+		m#
+}
+cacheSolve(a)
+a$get(c)
+makeCacheMatrix <- function(x = matrix()) {#
+	m<-NULL#
+	set<- function(y) {#
+		x<<-y#
+		m<<-NULL	#
+	}#
+	get<- function() x#
+	set.matrix<-function(solve) m <<-solve#
+	get.matrix<-function() m#
+	list(set= set, get = get,#
+		set.matrix=set.matrix,#
+		get.matrix=get.matrix)#
+}
+cacheSolve <- function(x, ...) {#
+		m<-x$get.matrix()#
+		if(!is.null(m))  {#
+				message("getting cached data")#
+				return(m)#
+		}#
+		data<-x$get()#
+		m<-solve(data, ...)#
+		x$set.matrix(m)#
+		m#
+}
+a<-makeCacheMatrix()
+summary(a)
+c<-matrix(c(1,2,12,13), nrow=2, ncol=2)
+a$set.matrix(c)
+a$get.matrix()
+a$get()
+data<-a$get()
+solve(data)
+cacheSolve <- function(x, ...) {#
+		m<-x$get.matrix()#
+		if(!is.null(m))  {#
+				message("getting cached data")#
+				return(m)#
+		}#
+		data<-x$get.matrix()#
+		m<-solve(data, ...)#
+		x$set.matrix(m)#
+		m#
+}
+cacheSolve(a)
+data<-a$get.matrix()
+solve(data)
+cacheSolve <- function(x, ...) {#
+		m<-x$get.matrix()#
+		if(!is.null(m))  {#
+				message("getting cached data")#
+				return(m)#
+		}#
+		data<-x$get.matrix()#
+		m<-solve(data, ...)#
+		x$set.matrix(m)#
+		m#
+}
+cacheSolve <- function(x, ...) {#
+		m<-x$get()#
+		if(!is.null(m))  {#
+				message("getting cached data")#
+				return(m)#
+		}#
+		data<-x$get.matrix()#
+		m<-solve(data, ...)#
+		x$set.matrix(m)#
+		m#
+}
+cacheSolve(a)
+a$get.matrix()
+cacheSolve(a)
+a$get()
+m<-a$get()
+!ist.null(m)
+!is.null(m)
+m<-a$get()
+!is.null(m)
+is.null(m)
+cacheSolve <- function(x, ...) {#
+		m<-x$get()#
+		if(is.null(m))  {#
+				message("getting cached data")#
+				return(m)#
+		}#
+		data<-x$get.matrix()#
+		m<-solve(data, ...)#
+		x$set.matrix(m)#
+		m#
+}
+cacheSolve(a)
+a$get.matrix()
+cacheSolve(a)
+a$get.matrix()
+cacheSolve <- function(x, ...) {#
+		m<-x$get.matrix()#
+		if(!is.null(m))  {#
+				message("getting cached data")#
+				return(m)#
+		}#
+		data<-x$get()#
+		m<-solve(data, ...)#
+		x$set.matrix(m)#
+		m#
+}
+cacheSolve(a)
+makeCacheMatrix <- function(x = matrix()) {#
+	m<-NULL#
+	set<- function(y) {#
+		x<<-y#
+		m<<-NULL	#
+	}#
+	get<- function() x#
+	set.matrix<-function(solve) m <<-solve#
+	get.matrix<-function() m#
+	list(set= set, get = get,#
+		set.matrix=set.matrix,#
+		get.matrix=get.matrix)#
+}
+a<-makeCacheMatrix()
+summary(a)
+c<-matrix(c(1,2,12,13), nrow=2, ncol=2)
+c
+cacheSolve(a)
+a$set.matrix(c)
+cacheSolve(a)
+a$get.matrix()
+cacheSolve <- function(x, ...) {#
+		m<-x$get()#
+		if(is.null(m))  {#
+				message("getting cached data")#
+				return(m)#
+		}#
+		data<-x$get.matrix()#
+		m<-solve(data, ...)#
+		x$set.matrix(m)#
+		m#
+}
+cacheSolve(a)
+m<-a$get()
+is.null(m)
+cacheSolve <- function(x, ...) {#
+		m<-x$get.matrix()#
+		if(!is.null(m))  {#
+				message("getting cached data")#
+				return(m)#
+		}#
+		data<-x$get.matrix()#
+		m<-solve(data, ...)#
+		x$set.matrix(m)#
+		m#
+}
+cacheSolve(a)
+makeCacheMatrix <- function(x = matrix()) {#
+	m<-NULL#
+	set<- function(y) {#
+		x<<-y#
+		m<<-NULL	#
+	}#
+	get<- function() x#
+	set.matrix<-function(solve) m <<-solve#
+	get.matrix<-function() m#
+	list(set= set, get = get,#
+		set.matrix=set.matrix,#
+		get.matrix=get.matrix)#
+}
+cacheSolve <- function(x, ...) {#
+		m<-x$get.matrix()#
+		if(!is.null(m))  {#
+				message("getting cached data")#
+				return(m)#
+		}#
+		data<-x$get.matrix()#
+		m<-solve(data, ...)#
+		x$set.matrix(m)#
+		m#
+}
+a<-makeCacheMatrix()
+c<-matrix(c(1,2,12,13), nrow=2, ncol=2)
+cacheSolve(makeCacheMatrix(c))
+c<-matrix(c(1,2,12,13), nrow=2, ncol=2)
+cacheSolve(makeCacheMatrix(c))
+a<-makeCacheMatrix()
+summary(a)
+a$set.matrix()
+cacheSolve(c)
+cacheSolve(a)
+cacheSolve <- function(x, ...) {#
+		m<-x$get()#
+		if(!is.null(m))  {#
+				message("getting cached data")#
+				return(m)#
+		}#
+		data<-x$get.matrix()#
+		m<-solve(data, ...)#
+		x$set.matrix(m)#
+		m#
+}
+a$set.matrix()
+summary(a)
+cacheSolve(a)
+cacheSolve(c)
+a$set.matrix(c)
+cacheSolve(a)
+cacheSolve <- function(x, ...) {#
+		m<-x$get()#
+		if(is.null(m))  {#
+				message("getting cached data")#
+				return(m)#
+		}#
+		data<-x$get.matrix()#
+		m<-solve(data, ...)#
+		x$set.matrix(m)#
+		m#
+}
+cacheSolve(a)
+a$get.matrix()
+cacheSolve(a)
+cacheSolve <- function(x, ...) {#
+		m<-x$get()#
+		if(!is.null(m))  {#
+				message("getting cached data")#
+				return(m)#
+		}#
+		data<-x$get.matrix()#
+		m<-solve(data, ...)#
+		x$set.matrix(m)#
+		m#
+}
+cacheSolve(a)
+cacheSolve <- function(x, ...) {#
+		m<-x$get()#
+		if(!is.null(m))  {#
+				message("getting cached data")#
+				return(x$get.matrix())#
+		}#
+		data<-x$get.matrix()#
+		m<-solve(data, ...)#
+		x$set.matrix(m)#
+		m#
+}
+cacheSolve(a)
+makeCacheMatrix <- function(x = matrix()) {#
+	m<-NULL#
+	set<- function(y) {#
+		x<<-y#
+		m<<-NULL	#
+	}#
+	get<- function() x#
+	set.matrix<-function(solve) m <<-solve#
+	get.matrix<-function() m#
+	list(set= set, get = get,#
+		set.matrix=set.matrix,#
+		get.matrix=get.matrix)#
+}
+cacheSolve <- function(x, ...) {#
+		m<-x$get()#
+		if(!is.null(m))  {#
+				message("getting cached data")#
+				return(x$get.matrix())#
+		}#
+		data<-x$get.matrix()#
+		m<-solve(data, ...)#
+		x$set.matrix(m)#
+		m#
+}
+a<-makeCacheMatrix()
+summary(a)
+c<-matrix(c(1,2,12,13), nrow=2, ncol=2)
+c
+a$set.matrix(c)
+cacheSolve(a)
+cacheSolve <- function(x, ...) {#
+		m<-x$get()#
+		if(!is.null(m))  {#
+				message("getting cached data")#
+				return(m)#
+		}#
+		data<-x$get.matrix()#
+		m<-solve(data, ...)#
+		m<-x$set.matrix(m)#
+		m#
+}
+cacheSolve(a)
+cacheSolve <- function(x, ...) {#
+		m<-x$get.matrix()#
+		if(is.null(m))  {#
+				message("getting cached data")#
+				return(m)#
+		}#
+		data<-x$get.matrix()#
+		m<-solve(data, ...)#
+		m<-x$set.matrix(m)#
+		m#
+}
+cacheSolve(a)
+cacheSolve <- function(x, ...) {#
+		m<-x$get.matrix()#
+		if(!is.null(m))  {#
+				message("getting cached data")#
+				return(m)#
+		}#
+		data<-x$get.matrix()#
+		m<-solve(data, ...)#
+		m<-x$set.matrix(m)#
+		m#
+}
+cacheSolve(a)
+cacheSolve <- function(x, ...) {#
+		m<-x$get.matrix()#
+		if(is.null(m))  {#
+				message("getting cached data")#
+				return(m)#
+		}#
+		data<-x$get.matrix()#
+		m<-solve(data, ...)#
+		m<-x$set.matrix(m)#
+		m#
+}
+cacheSolve(a)
+a$get()
+a$get.matrix()
+data<-x$get()
+cacheSolve(a)
+a$get()
+a$get.matrix()
+cacheSolve <- function(x, ...) {#
+		m<-x$get()#
+		if(!is.null(m))  {#
+				message("getting cached data")#
+				return(m)#
+		}#
+		data<-x$get.matrix()#
+		m<-solve(data, ...)#
+		m<-x$set.matrix(m)#
+		m#
+}
+cacheSolve(a)
+cacheSolve <- function(x, ...) {#
+		m<-x$get()#
+		if(!is.null(m))  {#
+				message("getting cached data")#
+				return(x$get.matrix())#
+		}#
+		data<-x$get.matrix()#
+		m<-solve(data, ...)#
+		m<-x$set.matrix(m)#
+		m#
+}
+cacheSolve(a)
+c<-matrix(c(1,2,12,13), nrow=2, ncol=2)
+a$set.matrix(c)
+cacheSolve(a)
+cacheSolve <- function(x, ...) {#
+		m<-x$get()#
+		if(is.null(m))  {#
+				message("getting cached data")#
+				return(x$get.matrix())#
+		}#
+		data<-x$get.matrix()#
+		m<-solve(data, ...)#
+		m<-x$set.matrix(m)#
+		m#
+}
+cacheSolve(a)
+cacheSolve <- function(x, ...) {#
+		m<-x$get()#
+		if(is.null(x$get.matrix()))  {#
+				message("getting cached data")#
+				return(x$get.matrix())#
+		}#
+		data<-x$get.matrix()#
+		m<-solve(data, ...)#
+		m<-x$set.matrix(m)#
+		m#
+}
+cacheSolve(a)
+cacheSolve <- function(x, ...) {#
+		m<-x$get()#
+		if(!is.null(x$get.matrix()))  {#
+				message("getting cached data")#
+				return(x$get.matrix())#
+		}#
+		data<-x$get.matrix()#
+		m<-solve(data, ...)#
+		m<-x$set.matrix(m)#
+		m#
+}
+cacheSolve(a)
+makeCacheMatrix <- function(x = matrix()) {#
+	m<-NULL#
+	set<- function(y) {#
+		x<<-y#
+		m<<-NULL	#
+	}#
+	get<- function() x#
+	set.matrix<-function(solve) m <<-solve#
+	get.matrix<-function() m#
+	list(set= set, get = get,#
+		set.matrix=set.matrix,#
+		get.matrix=get.matrix)#
+}
+cacheSolve <- function(x, ...) {#
+		m<-x$get()#
+		if(!is.null(m))  {#
+				message("getting cached data")#
+				return(x$get.matrix())#
+		}else{#
+		data<-x$get.matrix()#
+		m<-solve(data, ...)#
+		m<-x$set.matrix(m)#
+		m}#
+}
+a<-makeCacheMatrix()
+summary(a)
+c<-matrix(c(1,2,12,13), nrow=2, ncol=2)
+a$set.matrix(c)
+cacheSolve(a)
+cacheSolve <- function(x, ...) {#
+		m<-x$get()#
+		if(is.null(m))  {#
+				message("getting cached data")#
+				return(x$get.matrix())#
+		}else{#
+		data<-x$get.matrix()#
+		m<-solve(data, ...)#
+		m<-x$set.matrix(m)#
+		m}#
+}
+cacheSolve(a)
+makeCacheMatrix <- function(x = matrix()) {#
+	m<<-NULL#
+	set<- function(y) {#
+		x<<-y#
+		m<<-NULL	#
+	}#
+	get<- function() x#
+	set.matrix<-function(solve) m <<-solve#
+	get.matrix<-function() m#
+	list(set= set, get = get,#
+		set.matrix=set.matrix,#
+		get.matrix=get.matrix)#
+}
+cacheSolve <- function(x, ...) {#
+		m<-x$get()#
+		if(!is.null(m))  {#
+				message("getting cached data")#
+				return(x$get.matrix())#
+		}else{#
+		data<-x$get.matrix()#
+		m<-solve(data, ...)#
+		m<-x$set.matrix(m)#
+		m}#
+}
+a<-makeCacheMatrix()
+summary(a)
+c<-matrix(c(1,2,12,13), nrow=2, ncol=2)
+a$set.matrix(c)
+cacheSolve(a)
+makeCacheMatrix <- function(x = matrix()) {#
+	m<-NULL#
+	set<- function(y) {#
+		x<<-y#
+		m<<-NULL	#
+	}#
+	get<- function() x#
+	set.matrix<-function(solve) m <<-solve#
+	get.matrix<-function() m#
+	list(set= set, get = get,#
+		set.matrix=set.matrix,#
+		get.matrix=get.matrix)#
+}
+cacheSolve <- function(x, ...) {#
+		m<-x$get()#
+		if(!is.null(m))  {#
+				message("getting cached data")#
+				return(x$get.matrix())#
+		}else{#
+		data<-x$get.matrix()#
+		m<-solve(data, ...)#
+		m<-x$set.matrix(m)#
+		m}#
+}
+cacheSolve(a)
+cacheSolve <- function(x, ...) {#
+		m<-NULL#
+		if(!is.null(m))  {#
+				message("getting cached data")#
+				return(x$get.matrix())#
+		}else{#
+		data<-x$get.matrix()#
+		m<-solve(data, ...)#
+		m<-x$set.matrix(m)#
+		m}#
+}
+cacheSolve(a)
+makeCacheMatrix <- function(x = matrix()) {#
+	m<-NULL#
+	set<- function(y) {#
+		x<<-y#
+		m<<-NULL	#
+	}#
+	get<- function() x#
+	set.matrix<-function(solve) m <<-solve#
+	get.matrix<-function() m#
+	list(set= set, get = get,#
+		set.matrix=set.matrix,#
+		get.matrix=get.matrix)#
+}
+cacheSolve <- function(x, ...) {#
+		if(!is.null(m))  {#
+				message("getting cached data")#
+				return(x$get.matrix())#
+		}else{#
+		data<-x$get.matrix()#
+		m<-solve(data, ...)#
+		m<-x$set.matrix(m)#
+		m}#
+}
+cacheSolve(a)
+a$set.matrix(c)
+cacheSolve(a)
+makeCacheMatrix <- function(x = matrix()) {#
+	m<-NULL#
+	set<- function(y) {#
+		x<<-y#
+		m<<-NULL	#
+	}#
+	get<- function() x#
+	set.matrix<-function(solve) m <<-solve#
+	get.matrix<-function() m#
+	list(set= set, get = get,#
+		set.matrix=set.matrix,#
+		get.matrix=get.matrix)#
+}
+a$set.matrix(c)
+cacheSolve(a)
+makeCacheMatrix <- function(x = matrix()) {#
+	m<-NULL#
+	set<- function(y) {#
+		x<<-y#
+		m<<-NULL	#
+	}#
+	get<- function() x#
+	set.matrix<-function(solve) m <<-solve#
+	get.matrix<-function() m#
+	list(set= set, get = get,#
+		set.matrix=set.matrix,#
+		get.matrix=get.matrix)#
+}
+cacheSolve <- function(x, ...) {#
+		m<-x$get.matrix()#
+		if(!is.null(m))  {#
+				message("getting cached data")#
+				return(x$get.matrix())#
+		}else{#
+		data<-x$get()#
+		m<-solve(data, ...)#
+		m<-x$set.matrix(m)#
+		m}#
+}
+a$set.matrix(c)
+cacheSolve(a)
+cacheSolve <- function(x, ...) {#
+		m<<-x$get.matrix()#
+		if(is.null(m))  {#
+				message("getting cached data")#
+				return(x$get.matrix())#
+		}else{#
+		data<-x$get()#
+		m<-solve(data, ...)#
+		m<-x$set.matrix(m)#
+		m}#
+}
+cacheSolve(a)
+makeCacheMatrix <- function(x = matrix()) {#
+	m<-NULL#
+	set<- function(y) {#
+		x<<-y#
+		m<<-NULL	#
+	}#
+	get<- function() x#
+	set.matrix<-function(solve) m <<-solve#
+	get.matrix<-function() m#
+	list(set= set, get = get,#
+		set.matrix=set.matrix,#
+		get.matrix=get.matrix)#
+}
+cacheSolve <- function(x, ...) {#
+		m<<-x$get.matrix()#
+		if(is.null(m))  {#
+				message("getting cached data")#
+				return(x$get.matrix())#
+		}else{#
+		data<-x$get()#
+		m<-solve(data, ...)#
+		m<-x$set.matrix(m)#
+		m}#
+}
+a<-makeCacheMatrix(matrix(c(1,2,12,13), nrow=2, ncol=2))
+cacheSolve(a)
+cacheSolve <- function(x, ...) {#
+		m<<-x$get.matrix()#
+		if(!is.null(m))  {#
+				message("getting cached data")#
+				return(x$get.matrix())#
+		}else{#
+		data<-x$get()#
+		m<-solve(data, ...)#
+		m<-x$set.matrix(m)#
+		m}#
+}
+cacheSolve(a)
